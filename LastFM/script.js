@@ -1,6 +1,6 @@
 import { visualizeData } from "./visualize.js";
 
-const URL = "http://ws.audioscrobbler.com/2.0/";
+const URL = "https://ws.audioscrobbler.com/2.0/";
 const API_KEY = "ac1c292ec5b818756c598865b49168f7";
 const userInfo = 'user.getInfo';
 
