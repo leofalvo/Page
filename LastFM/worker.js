@@ -1,6 +1,7 @@
 // worker.js
 const URL = "https://ws.audioscrobbler.com/2.0/";
 const API_KEY = "ac1c292ec5b818756c598865b49168f7";
+
 const recentTracks = 'user.getRecentTracks';
 
 self.addEventListener('message', async (event) => {
